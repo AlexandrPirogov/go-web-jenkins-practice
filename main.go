@@ -9,7 +9,7 @@ import (
 )
 
 func handler(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "Hello, Jenkins! This is a simple Go web application.")
+	fmt.Fprintf(w, "Hello, Jenkins! This is a simple Go web application.\n")
 	fmt.Fprintf(w, "Added new line with CI/CD")
 }
 
